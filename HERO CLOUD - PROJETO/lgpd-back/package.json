@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "renan auRenan Augusto",
+  "author": "Renan Augusto",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.3",
-    "sequelize": "^6.37.1"
-  }
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.10.0",
+    "process": "^0.11.10",
+    "sequelize": "^6.29.0"
+  },
+  "type": "module"
 }
